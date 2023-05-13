@@ -15,6 +15,7 @@ const customerSchema = new mongoose.Schema(
     email: {
       type: String,
       required: [true, "Please Provide a Email"],
+      unique:true,
       validate: {
         validator: function (email) {
           return /^([A-Za-z0-9._]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6})+$/.test(
