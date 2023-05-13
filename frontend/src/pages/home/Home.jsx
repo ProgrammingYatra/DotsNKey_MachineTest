@@ -1,11 +1,12 @@
-import React from 'react'
+import UserTable from './UserTable';
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Welcome to the Customer Management System</h1>
+      <UserTable />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default HomePage;

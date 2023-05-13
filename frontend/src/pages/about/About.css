@@ -1,0 +1,33 @@
+.about {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
